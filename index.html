@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive card details form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="images">
+        <div class="cardFront">
+          <div class="circles">
+            <img src="images/card-logo.svg" alt="logo" />
+          </div>
+          <div class="numbers">0000 0000 0000 0000</div>
+          <div class="name">Jane Appleseed</div>
+          <div class="expireDate">
+            <div class="monthValue">00</div>
+            <div class="divisor">/</div>
+            <div class="yearValue">00</div>
+          </div>
+        </div>
+        <div class="cardBack">
+          <div class="code">000</div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <form action="#" autocomplete="off">
+        <label for="inputFullName">CARDHOLDER NAME</label>
+        <input
+          type="text"
+          id="inputFullName"
+          placeholder="e.g. Jane Appleseed"
+        />
+        <span class="errorName"></span>
+        <label for="inputCardNumber">CARD NUMBER</label>
+        <input
+          type="text"
+          id="inputCardNumber"
+          placeholder="e.g. 1234 5678 9123 0000"
+        />
+        <span class="errorCardNumber"></span>
+        <div class="inlineFields">
+          <fieldset>
+            <legend>EXP. DATE (MM/YY)</legend>
+            <div class="inputDate">
+              <input type="text" id="inputMonth" placeholder="MM" />
+              <input type="text" id="inputYear" placeholder="YY" />
+            </div>
+            <span class="errorDate" style="display: block"></span>
+          </fieldset>
+          <div class="cvcField">
+            <label for="inputCode">CVC</label>
+            <input type="text" id="inputCode" placeholder="e.g. 123" />
+            <span class="errorCVC"></span>
+          </div>
+        </div>
+        <button type="submit">Confirm</button>
+      </form>
+    </main>
+    <div class="completedMSG hide">
+      <img src="images/icon-complete.svg" alt="Completed icon" />
+      <h1>THANK YOU!</h1>
+      <p>We've added your card details</p>
+      <button id="reset" type="submit">Continue</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

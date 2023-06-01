@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+main {
+  position: relative;
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+  top: 45%;
+}
+
+form {
+  display: grid;
+  color: hsl(278, 68%, 11%);
+}
+
+button {
+  padding: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  background-color: hsl(278, 68%, 11%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+}
+
+span {
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 13px;
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: hsl(270, 3%, 87%);
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: darkviolet;
+}
+
+.cvcField {
+  display: grid;
+}
+
+.inlineFields {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  margin-right: 10px;
+}
+
+#inputMonth {
+  width: 80px;
+}
+
+#inputYear {
+  width: 80px;
+}
+
+#inputCode {
+  width: 140px;
+}
+
+.inputDate {
+  display: flex;
+  gap: 5px;
+}
+
+.cardFront {
+  box-sizing: border-box;
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  top: 119px;
+  left: 1rem;
+  height: 154px;
+  width: 280px;
+  padding: 15px;
+  background-image: url(images/bg-card-front.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  align-items: end;
+  grid-template:
+    "a a" 1fr
+    "b b" 2fr
+    "c d" 1fr;
+}
+
+.cardBack {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  height: 154px;
+  width: 280px;
+  z-index: -1;
+  color: hsl(0, 0%, 100%);
+  background-image: url(images/bg-card-back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  align-items: center;
+  justify-content: end;
+}
+
+.circles {
+  grid-area: a;
+}
+
+.circles > img {
+  height: 2.3rem;
+}
+
+.numbers {
+  grid-area: b;
+  font-size: 18px;
+}
+
+.name {
+  grid-area: c;
+  font-size: 11px;
+}
+
+.expireDate {
+  grid-area: d;
+  justify-self: end;
+  font-size: 11px;
+}
+
+.expireDate > div {
+  display: inline;
+}
+
+.code {
+  padding-right: 2rem;
+}
+
+.completedMSG {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.completedMSG > P {
+  color: hsl(279, 6%, 55%);
+  font-size: 16px;
+}
+
+#reset {
+  align-self: stretch;
+}
+
+.hide {
+  visibility: hidden;
+}
