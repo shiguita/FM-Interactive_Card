@@ -16,6 +16,7 @@ body {
 
 main {
   position: relative;
+  width: fit-content;
   margin: 0 2rem;
   padding-bottom: 2rem;
   top: 45%;
@@ -38,7 +39,7 @@ button {
 
 span {
   color: red;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -180,4 +181,61 @@ fieldset {
 
 .hide {
   visibility: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-image: url(images/bg-main-desktop.png);
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  main {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+  }
+  input {
+    font-size: 18px;
+  }
+  span {
+    font-size: 14px;
+    height: 18px;
+  }
+  .cardFront {
+    top: 12rem;
+    left: 11rem;
+    height: 245px;
+    width: 447px;
+    padding: 1.5rem;
+  }
+  .circles > img {
+    height: 3rem;
+  }
+  .numbers {
+    font-size: 1.8rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .expireDate {
+    font-size: 1rem;
+  }
+  .cardBack {
+    top: 30rem;
+    left: 16rem;
+    height: 245px;
+    width: 447px;
+  }
+  .code {
+    padding-right: 2.7rem;
+  }
+  #inputMonth {
+    width: 100px;
+  }
+  #inputYear {
+    width: 100px;
+  }
+  #inputCode {
+    width: 200px;
+  }
 }

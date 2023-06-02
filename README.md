@@ -42,19 +42,9 @@ Users should be able to:
 
 The two parts which gave me the most trouble were the CSS and JS parts of the challenge. I know that they are not really complex and once you know what to do it's quite simple, but I was constantly thinking of how to make it more efficient and that made me spend a lot more time than what I originally thought was needed.
 
-I know that this is not the best or most efficient solution but I'm happy for a first try.
+I know that this is not the best or most efficient solution but I'm happy for a first try. I ended up using media queries to implement a desktop view, which I think is not as efficient but I couldn't come up with a better soluiton. I do want to compare with other submitions and see where I can improve.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+The Javascript was mostly copying what I did in the age component chalenge for the most part.
 
 ### Continued development
 
@@ -66,4 +56,4 @@ I have to grow my JavaScript skills a lot further, thanks to all the little proj
 
 ## Acknowledgments
 
-I do want to once again thank "" for showing the importance of writing cleaner code.
+I do want to thank [Alamin](https://github.com/CodePapa360) once again for showing the importance of writing cleaner code.
