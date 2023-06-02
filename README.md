@@ -34,25 +34,25 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://shiguita.github.io/FM-Interactive_Card/)
 
 ## My process
 
 ### What I learned
 
-The two parts which gave me the most trouble were the CSS and JS parts of the challenge. I know that they are not really complex and once you know what to do it's quite simple, but I was constantly thinking of how to make it more efficient and that made me spend a lot more time than what I originally thought was needed.
+What caused me the most trouble were the CSS and JS aspects of the challenge. I understand that they are not particularly complex, and once you know what to do, it becomes quite simple. However, I constantly found myself trying to make it more efficient, which ended up taking much more time than I initially anticipated.
 
-I know that this is not the best or most efficient solution but I'm happy for a first try. I ended up using media queries to implement a desktop view, which I think is not as efficient but I couldn't come up with a better soluiton. I do want to compare with other submitions and see where I can improve.
+I acknowledge that this may not be the best or most efficient solution, but I'm satisfied with it for a first attempt. To implement a desktop view, I ended up using media queries, although I recognize that it may not be the best approach. Unfortunately, I couldn't come up with a better solution and I want to work on other projects.
 
-The Javascript was mostly copying what I did in the age component chalenge for the most part.
+For the most part, the JavaScript part was mostly a repetition of what I did in the age component challenge.
 
 ### Continued development
 
-I have to grow my JavaScript skills a lot further, thanks to all the little projects I do I progress a little bit everytime. I do want to try redoing this project with different CSS approaches and expand my understanding of it.
+I still have a lot to learn and improve upon in JavaScript. Each time I work on these small projects, I make incremental progress. I plan to revisit this project and explore different approaches made by other users and expand my understanding of these languages.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@shiguita](https://www.frontendmentor.io/profile/shiguita)
 
 ## Acknowledgments
 
